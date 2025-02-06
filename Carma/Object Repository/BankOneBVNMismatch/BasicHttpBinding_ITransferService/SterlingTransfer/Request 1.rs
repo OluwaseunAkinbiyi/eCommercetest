@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Request 1</name>
+   <tag></tag>
+   <elementGuidId>de63071a-a88f-44df-91d9-ac95d8debee0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>324033e6-5228-43fd-9494-37b28ba80bc7</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot;>
+   &lt;soapenv:Header/>
+   &lt;soapenv:Body>
+      &lt;tem:SterlingTransfer>
+         &lt;!--Optional:-->
+         &lt;tem:institutionCode>?&lt;/tem:institutionCode>
+         &lt;!--Optional:-->
+         &lt;tem:accountNumber>?&lt;/tem:accountNumber>
+         &lt;!--Optional:-->
+         &lt;tem:beneficiaryAccount>?&lt;/tem:beneficiaryAccount>
+         &lt;!--Optional:-->
+         &lt;tem:beneficiaryName>?&lt;/tem:beneficiaryName>
+         &lt;!--Optional:-->
+         &lt;tem:bankCode>?&lt;/tem:bankCode>
+         &lt;!--Optional:-->
+         &lt;tem:amount>?&lt;/tem:amount>
+         &lt;!--Optional:-->
+         &lt;tem:narration>?&lt;/tem:narration>
+         &lt;!--Optional:-->
+         &lt;tem:authToken>?&lt;/tem:authToken>
+      &lt;/tem:SterlingTransfer>
+   &lt;/soapenv:Body>
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>http://10.1.4.13/BankOneAgent/Services/TransferService.svc</soapServiceEndpoint>
+   <soapServiceFunction>SterlingTransfer</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>http://10.1.4.13/BankOneAgent/Services/TransferService.svc?wsdl</wsdlAddress>
+</WebServiceRequestEntity>

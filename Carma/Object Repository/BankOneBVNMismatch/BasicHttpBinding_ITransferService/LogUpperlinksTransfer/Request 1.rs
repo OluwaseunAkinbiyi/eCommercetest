@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Request 1</name>
+   <tag></tag>
+   <elementGuidId>21d56e8e-ebf3-4942-a195-d78c8fbb0d28</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>414b4d68-2ae4-4b14-bd96-f5403399d0cb</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot; xmlns:ban=&quot;http://schemas.datacontract.org/2004/07/BankOneAgent.Core.Implementations&quot;>
+   &lt;soapenv:Header/>
+   &lt;soapenv:Body>
+      &lt;tem:LogUpperlinksTransfer>
+         &lt;!--Optional:-->
+         &lt;tem:entries>
+            &lt;!--Optional:-->
+            &lt;ban:InstitutionCode>?&lt;/ban:InstitutionCode>
+            &lt;!--Optional:-->
+            &lt;ban:creditaccounts>
+               &lt;!--Zero or more repetitions:-->
+               &lt;ban:creditaccounts>
+                  &lt;!--Optional:-->
+                  &lt;ban:accountnumber>?&lt;/ban:accountnumber>
+                  &lt;!--Optional:-->
+                  &lt;ban:amount>?&lt;/ban:amount>
+                  &lt;!--Optional:-->
+                  &lt;ban:bankcode>?&lt;/ban:bankcode>
+                  &lt;!--Optional:-->
+                  &lt;ban:narration>?&lt;/ban:narration>
+                  &lt;!--Optional:-->
+                  &lt;ban:serialno>?&lt;/ban:serialno>
+               &lt;/ban:creditaccounts>
+            &lt;/ban:creditaccounts>
+            &lt;!--Optional:-->
+            &lt;ban:debitaccountnumber>?&lt;/ban:debitaccountnumber>
+            &lt;!--Optional:-->
+            &lt;ban:debitbankcode>?&lt;/ban:debitbankcode>
+            &lt;!--Optional:-->
+            &lt;ban:description>?&lt;/ban:description>
+            &lt;!--Optional:-->
+            &lt;ban:mfbhandlesdebit>?&lt;/ban:mfbhandlesdebit>
+            &lt;!--Optional:-->
+            &lt;ban:transref>?&lt;/ban:transref>
+         &lt;/tem:entries>
+      &lt;/tem:LogUpperlinksTransfer>
+   &lt;/soapenv:Body>
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>http://10.1.4.13/BankOneAgent/Services/TransferService.svc</soapServiceEndpoint>
+   <soapServiceFunction>LogUpperlinksTransfer</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>http://10.1.4.13/BankOneAgent/Services/TransferService.svc?wsdl</wsdlAddress>
+</WebServiceRequestEntity>

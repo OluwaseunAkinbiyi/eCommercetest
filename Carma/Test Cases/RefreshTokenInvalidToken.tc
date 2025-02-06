@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RefreshTokenInvalidToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5931a47-fbbe-48a1-88a1-8c1adcc7ad0b</testCaseGuid>
+</TestCaseEntity>

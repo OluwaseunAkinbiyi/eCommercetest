@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Request 1</name>
+   <tag></tag>
+   <elementGuidId>23dc6fc5-16fd-4a71-b13a-f9dda966079f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>c11a1a6b-f63c-43ab-9515-92e7534b3485</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot;>
+   &lt;soapenv:Header/>
+   &lt;soapenv:Body>
+      &lt;tem:RunPaymentTransaction>
+         &lt;!--Optional:-->
+         &lt;tem:mfbCode>?&lt;/tem:mfbCode>
+         &lt;!--Optional:-->
+         &lt;tem:accountNumber>?&lt;/tem:accountNumber>
+         &lt;!--Optional:-->
+         &lt;tem:amount>?&lt;/tem:amount>
+         &lt;!--Optional:-->
+         &lt;tem:narration>?&lt;/tem:narration>
+         &lt;!--Optional:-->
+         &lt;tem:transactionReference>?&lt;/tem:transactionReference>
+         &lt;!--Optional:-->
+         &lt;tem:serviceCode>?&lt;/tem:serviceCode>
+         &lt;!--Optional:-->
+         &lt;tem:transactionType>?&lt;/tem:transactionType>
+      &lt;/tem:RunPaymentTransaction>
+   &lt;/soapenv:Body>
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>http://10.1.4.13/BankOneAgent/Services/TransferService.svc</soapServiceEndpoint>
+   <soapServiceFunction>RunPaymentTransaction</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>http://10.1.4.13/BankOneAgent/Services/TransferService.svc?wsdl</wsdlAddress>
+</WebServiceRequestEntity>

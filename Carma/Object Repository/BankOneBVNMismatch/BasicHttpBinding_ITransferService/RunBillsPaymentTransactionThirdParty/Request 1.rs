@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Request 1</name>
+   <tag></tag>
+   <elementGuidId>ed4f3a4b-8e68-4847-8e2a-4ee5c42ad6dd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/xml; charset=utf-8</value>
+      <webElementGuid>44b748d3-b85e-4e6c-b259-fb965bc0ece6</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>8.5.5</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot;>
+   &lt;soapenv:Header/>
+   &lt;soapenv:Body>
+      &lt;tem:RunBillsPaymentTransactionThirdParty>
+         &lt;!--Optional:-->
+         &lt;tem:billerID>?&lt;/tem:billerID>
+         &lt;!--Optional:-->
+         &lt;tem:billerName>?&lt;/tem:billerName>
+         &lt;!--Optional:-->
+         &lt;tem:billerCategoryID>?&lt;/tem:billerCategoryID>
+         &lt;!--Optional:-->
+         &lt;tem:billerCategoryName>?&lt;/tem:billerCategoryName>
+         &lt;!--Optional:-->
+         &lt;tem:paymentItemID>?&lt;/tem:paymentItemID>
+         &lt;!--Optional:-->
+         &lt;tem:PaymentItemCode>?&lt;/tem:PaymentItemCode>
+         &lt;!--Optional:-->
+         &lt;tem:PaymentItemName>?&lt;/tem:PaymentItemName>
+         &lt;!--Optional:-->
+         &lt;tem:CustomerID>?&lt;/tem:CustomerID>
+         &lt;!--Optional:-->
+         &lt;tem:CustomerDepositSlipNumber>?&lt;/tem:CustomerDepositSlipNumber>
+         &lt;!--Optional:-->
+         &lt;tem:CustomerName>?&lt;/tem:CustomerName>
+         &lt;!--Optional:-->
+         &lt;tem:AccountNumber>?&lt;/tem:AccountNumber>
+         &lt;!--Optional:-->
+         &lt;tem:CustomerEmail>?&lt;/tem:CustomerEmail>
+         &lt;!--Optional:-->
+         &lt;tem:CustomerPhone>?&lt;/tem:CustomerPhone>
+         &lt;!--Optional:-->
+         &lt;tem:Amount>?&lt;/tem:Amount>
+         &lt;!--Optional:-->
+         &lt;tem:instCode>?&lt;/tem:instCode>
+         &lt;!--Optional:-->
+         &lt;tem:referenceNumber>?&lt;/tem:referenceNumber>
+         &lt;!--Optional:-->
+         &lt;tem:isDirectGatewayBiling>?&lt;/tem:isDirectGatewayBiling>
+      &lt;/tem:RunBillsPaymentTransactionThirdParty>
+   &lt;/soapenv:Body>
+&lt;/soapenv:Envelope></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceEndpoint>http://10.1.4.13/BankOneAgent/Services/TransferService.svc</soapServiceEndpoint>
+   <soapServiceFunction>RunBillsPaymentTransactionThirdParty</soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <wsdlAddress>http://10.1.4.13/BankOneAgent/Services/TransferService.svc?wsdl</wsdlAddress>
+</WebServiceRequestEntity>
